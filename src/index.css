@@ -84,11 +84,18 @@ picture {
   margin: 0;
 }
 
+
+
 /*
 =============== 
 Global Styles
 ===============
 */
+
+html,
+body {
+  overflow-x: hidden;
+}
 
 h1,
 h2,
