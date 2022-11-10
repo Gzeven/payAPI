@@ -14,14 +14,6 @@ const validate = (inputs) => {
     errors.name = "This field can't be empty";
   }
 
-  if (!inputs.company) {
-    errors.company = "This field can't be empty";
-  }
-
-  if (!inputs.title) {
-    errors.title = "This field can't be empty";
-  }
-
   if (!inputs.message) {
     errors.message = "This field can't be empty";
   }

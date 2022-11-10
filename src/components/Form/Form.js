@@ -6,7 +6,7 @@ import Checkbox from './CheckBox';
 
 const Form = () => {
   const { inputs, handleInputChange, handleSubmit, errors } = useForm(
-    { name: '', email: '', phone: '', message: '' },
+    { name: '', email: '', message: '' },
     validate
   );
   return (
@@ -49,7 +49,6 @@ const Form = () => {
               Company Name
             </label>
             <input
-              className={errors.company ? 'errorcolor' : null}
               type="text"
               name="company"
               onChange={handleInputChange}
@@ -57,7 +56,6 @@ const Form = () => {
               placeholder="Company Name"
               required=""
             />
-            {errors.company && <p className="error">{errors.company}</p>}
           </div>
 
           <div className="input-item">
@@ -65,7 +63,6 @@ const Form = () => {
               Title
             </label>
             <input
-              className={errors.title ? 'errorcolor' : null}
               type="text"
               name="title"
               onChange={handleInputChange}
@@ -73,7 +70,6 @@ const Form = () => {
               placeholder="Title"
               required=""
             />
-            {errors.title && <p className="error">{errors.title}</p>}
           </div>
 
           <div className="input-item">

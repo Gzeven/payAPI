@@ -112,27 +112,9 @@ p {
   font-size: 0.938rem;
   line-height: 28px;
   color: hsl(var(--clr-light-san-juan-blue))
-  /* text-align: center; */
- 
 }
 
-@media (min-width: 768px) {
-  /* p {
-    font-size: 1rem;
-    line-height: 28px;
-    text-align: left;
-    text-align: center;
-    margin: 0 auto;
-  } */
-}
 
-@media (min-width: 1200px) {
-  /* p {
-    font-size: 1.125rem;
-    line-height: 32px;
-    text-align: left;
-  } */
-}
 
 body {
   font-family: var(--ff-sans-normal);
