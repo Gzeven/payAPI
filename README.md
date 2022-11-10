@@ -28,13 +28,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./assets/Screenshot.png)
+![Screenshot](./assets/Screenshot.png)
 
 
 ### Links
 
-- Solution URL: [](https://github.com/Gzeven/payAPI)
-- Live Site URL: [](https://pay-api-iota.vercel.app/)
+- Solution URL: [Link](https://github.com/Gzeven/payAPI)
+- Live Site URL: [Link](https://pay-api-iota.vercel.app/)
 
 
 ## My process
@@ -52,5 +52,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Gzeven](https://www.frontendmentor.io/profile/Gzeven)
+- Frontend Mentor - [Gzeven](https://www.frontendmentor.io/profile/Gzeven)
 
