@@ -14,9 +14,6 @@ This is a solution to the [PayAPI multi-page website challenge on Frontend Mento
     - [Built with](#built-with)
   - [Author](#author)
 
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Gzeven/payAPI)
-- Live Site URL: [Add live site URL here](https://pay-api-iota.vercel.app/)
+- Solution URL: [](https://github.com/Gzeven/payAPI)
+- Live Site URL: [](https://pay-api-iota.vercel.app/)
 
 
 ## My process
@@ -55,5 +52,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Gzeven)
+- Frontend Mentor - [@Gzeven](https://www.frontendmentor.io/profile/Gzeven)
 
