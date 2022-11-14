@@ -62,6 +62,7 @@ const Wrapper = styled(motion.section)`
 
     h1 {
       margin-bottom: 4rem;
+      color: hsl(var(--clr-charm-pink));
     }
 
     .back-button {
