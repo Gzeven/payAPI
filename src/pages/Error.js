@@ -57,8 +57,6 @@ const Wrapper = styled(motion.section)`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* max-width: 1440px; */
-    /* margin: 0 auto; */
 
     h1 {
       margin-bottom: 4rem;
