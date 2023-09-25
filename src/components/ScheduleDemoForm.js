@@ -13,7 +13,7 @@ const ScheduleDemoForm = () => {
 
 const Wrapper = styled.section`
   text-align: center;
-  margin-bottom: 5rem;
+  padding-bottom: 5rem;
   padding-inline: 1.5rem;
   h1 {
     font-size: 2rem;
@@ -28,7 +28,7 @@ const Wrapper = styled.section`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 6.25rem;
+    padding-bottom: 6.25rem;
 
     h1 {
       font-size: 3rem;
