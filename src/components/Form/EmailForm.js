@@ -17,10 +17,11 @@ const EmailForm = () => {
           <input
             type="email"
             name="email"
+            id="email"
             onChange={handleInputChange}
             value={inputs.email}
             placeholder="Enter email Adress"
-            required=""
+            autoComplete="on"
           />
           {errors.email && <p className="error">{errors.email}</p>}
           <PrimaryButton

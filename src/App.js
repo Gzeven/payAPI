@@ -10,7 +10,7 @@ function App() {
 
   return (
     <Wrapper>
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence mode="wait">
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
           <Route path="pricing" element={<Pricing />} />

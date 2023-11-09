@@ -21,10 +21,11 @@ const Form = () => {
               className={errors.name ? 'errorcolor' : null}
               type="text"
               name="name"
+              id="name"
               onChange={handleInputChange}
               value={inputs.name}
               placeholder="Name"
-              required=""
+              autoComplete="on"
             />
             {errors.name && <p className="error">{errors.name}</p>}
           </div>
@@ -36,10 +37,11 @@ const Form = () => {
               className={errors.email ? 'errorcolor' : null}
               type="email"
               name="email"
+              id="email"
               onChange={handleInputChange}
               value={inputs.email}
-              placeholder="Email Adress"
-              required=""
+              placeholder="Email Address"
+              autoComplete="on"
             />
             {errors.email && <p className="error">{errors.email}</p>}
           </div>
@@ -51,10 +53,11 @@ const Form = () => {
             <input
               type="text"
               name="company"
+              id="company"
               onChange={handleInputChange}
               value={inputs.company}
               placeholder="Company Name"
-              required=""
+              autoComplete="off"
             />
           </div>
 
@@ -65,10 +68,11 @@ const Form = () => {
             <input
               type="text"
               name="title"
+              id="title"
               onChange={handleInputChange}
               value={inputs.title}
               placeholder="Title"
-              required=""
+              autoComplete="off"
             />
           </div>
 
@@ -79,10 +83,11 @@ const Form = () => {
             <textarea
               className={errors.message ? 'errorcolor' : null}
               name="message"
+              id="message"
               onChange={handleInputChange}
               value={inputs.message}
               placeholder="Message"
-              required=""
+              autoComplete="off"
             />
             {errors.message && <p className="error">{errors.message}</p>}
           </div>
