@@ -249,9 +249,11 @@ const Wrapper = styled(motion.section)`
         outline: none;
         transition: all 0.6s;
         margin-top: 3.75rem;
-        &:hover {
-          background-color: hsl(var(--clr-link-water-white));
-          color: hsl(var(--clr-mirage-blue));
+        @media (hover: hover) and (pointer: fine) {
+          &:hover {
+            background-color: hsl(var(--clr-link-water-white));
+            color: hsl(var(--clr-mirage-blue));
+          }
         }
       }
     }

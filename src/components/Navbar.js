@@ -111,8 +111,10 @@ const NavContainer = styled.nav`
       transition: var(--transition);
       color: hsl(var(--clr-link-water-white));
       opacity: 0.7;
-      :hover {
-        opacity: 1;
+      @media (hover: hover) and (pointer: fine) {
+        :hover {
+          opacity: 1;
+        }
       }
     }
     .divider {

@@ -93,8 +93,10 @@ const Wrapper = styled.footer`
       font-size: 1.5rem;
       padding-inline: 0.75rem;
       transition: var(--transition);
-      :hover {
-        color: hsl(var(--clr-charm-pink));
+      @media (hover: hover) and (pointer: fine) {
+        :hover {
+          color: hsl(var(--clr-charm-pink));
+        }
       }
     }
   }

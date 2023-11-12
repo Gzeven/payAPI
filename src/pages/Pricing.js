@@ -222,10 +222,11 @@ const Wrapper = styled(motion.section)`
       border: 1px solid hsl(var(--clr-san-juan-blue));
       outline: none;
       transition: all 0.6s;
-
-      &:hover {
-        background-color: hsl(var(--clr-san-juan-blue));
-        color: hsl(var(--clr-link-water-white));
+      @media (hover: hover) and (pointer: fine) {
+        &:hover {
+          background-color: hsl(var(--clr-san-juan-blue));
+          color: hsl(var(--clr-link-water-white));
+        }
       }
     }
   }
