@@ -44,12 +44,11 @@ function Navbar() {
       >
         <ul>
           <div className="divider"></div>
-          {NAVBAR_ROUTES.map(({ exact, path, name, classname }) => {
-            return (
+          {NAVBAR_ROUTES.map(({ exact, path, name, classname }) => (
+            <li key={name}>
               <Link
                 to={path}
                 className={splitLocation[1] === classname ? 'active' : ''}
-                key={name}
               >
                 <button
                   className="navlink  navtext"
@@ -59,8 +58,8 @@ function Navbar() {
                   {name}
                 </button>
               </Link>
-            );
-          })}
+            </li>
+          ))}
         </ul>
         <PrimaryButton
           bgcolor="hsl(var(--clr-pink))"

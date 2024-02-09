@@ -31,6 +31,7 @@ const Footer = () => {
           href="https://www.facebook.com/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Go to Facebook"
         >
           <FaFacebookSquare />
         </a>
@@ -38,6 +39,7 @@ const Footer = () => {
           href="https://www.twitter.com/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Go to Twitter"
         >
           <FaTwitter />
         </a>
@@ -45,6 +47,7 @@ const Footer = () => {
           href="https://www.linkedin.com/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="Go to Linkedin"
         >
           <FaLinkedin />
         </a>
