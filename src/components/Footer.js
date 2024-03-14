@@ -15,16 +15,18 @@ const Footer = () => {
         </Link>
       </div>
       <div className="links-container">
-        <ul className="links">
-          {NAVBAR_ROUTES.map(({ exact, path, name }) => {
-            return (
-              <Link className="link-text" to={path} key={name}>
-                <button exact={`${exact}`}>{name}</button>
+      <ul className="links">
+        {NAVBAR_ROUTES.map(({ exact, path, name }) => {
+          return (
+            <li key={name}>
+              <Link className="link-text" to={path}>
+                {name}
               </Link>
-            );
-          })}
-        </ul>
-      </div>
+            </li>
+          );
+        })}
+      </ul>
+    </div>
 
       <div className="social-links">
         <a
@@ -74,21 +76,24 @@ const Wrapper = styled.footer`
   }
 
   .links-container {
-    .links {
-      display: flex;
-      flex-direction: column;
-      margin: 2.5rem 0;
-      padding: 0;
-      gap: 2.5rem;
-      button {
-        border: none;
-        background: transparent;
-        color: hsl(var(--clr-link-water-white));
-        padding: 0;
-        cursor: pointer;
-      }
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin: 2.5rem 0;
+    padding: 0;
+    gap: 2.5rem;
+
+    li {
+      list-style: none; /* Verwijder standaard lijst opmaak */
+    }
+
+    .link-text {
+      color: hsl(var(--clr-link-water-white));
+      text-decoration: none; /* Voeg onderstreping toe als gewenst */
+      cursor: pointer;
     }
   }
+}
 
   .social-links {
     a {
